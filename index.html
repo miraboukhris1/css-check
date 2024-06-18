@@ -3,25 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Portfolio</title>
-   
+    <link rel="stylesheet" href="style.css"> 
 </head>
-<body background="./fichier/purple.jpeg">
+<body>
     <!-- Navbar -->
-    <nav>
-       <h3 align="center">
-            <a href="#home ">Home</a>
-            <a href="#about">About</a>
-            <a href="#work">Work</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
+    <nav class="liste">
+        <h1>welcome</h1>
+       <h3>
+            <ul>
+                <li><a href="#home ">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+           
+            
        </h3>     
     </nav>
+    
     
     <!-- Main content -->
     <main>
     <header>
-        <table>
+        <table >
             <tr>
                 <td>
                     
@@ -30,23 +40,27 @@
                     
                 </td>
                 <td>
-                    <h1><i style="color: rgb(205, 54, 195);">Mira </i></h1>
-                    <h1><i style="color: rgb(205, 54, 195);">Boukhris </i></h1>
+                    <h1><i>Mira </i></h1>
+                    <h1><i>Boukhris </i></h1>
                 </td>
             </tr>
         </table>
     </header>
+    <div>
      <audio
+      
                 src="./fichier/sound.mp3"
                 type="mpeg/mp3"
                 controls
             >
                 votre browser ne prend en charge
+                
             </audio> 
+    </div>        
 
     <!-- About Section -->
     <section id="about">
-        <h2 style="background-color:rgb(161, 27, 161);">About Me</h2>
+        <h2>About Me</h2>
         <hr>
         <table border="1">
             <tr>
@@ -70,9 +84,9 @@
 
     <!-- Work Section -->
     <section id="work">
-        <h2 style="background-color:rgb(161, 27, 161);">Work</h2>
+        <h2>Work</h2>
         <hr>
-        <h3 style="border:2px solid rgb(213, 125, 177);">Skills</h3>
+        <h3>Skills</h3>
         <ul>
             <li>Programming Languages: Python, C, SDL, C++ </li>
             <li>Currently learning Web Development: HTML, CSS, JavaScript</li>
@@ -80,13 +94,13 @@
         </ul>
         
         
-        <h3 style="border:2px solid rgb(213, 125, 177);">Languages</h3>
+        <h3>Languages</h3>
         <ul>
             <li>English</li>
             <li>Arabic</li>
             <li>French</li>
         </ul>
-        <h3 style="border:2px solid rgb(213, 125, 177);">Projects</h3>
+        <h3>Projects</h3>
         <ul>
             <li>Developed a game using SDL and C, demonstrating skills in game design and programming.</li>
         </ul>
@@ -94,7 +108,7 @@
 
     <!-- Resume Section -->
     <section id="resume">
-        <h2 style="background-color:rgb(161, 27, 161);">Resume</h2>
+        <h2>Resume</h2>
         <hr>
         <p>I'm a<b> first-year computer science preparatory student at <a href="https://www.esprit.tn/" target="_blank">esprit</a></b>, specializing in computer science. Currently, I am focused on learning web development, which involves acquiring skills in various programming languages and technologies related to building and maintaining websites.
 
@@ -104,7 +118,7 @@
 
     <!-- Footer -->
     <section id="contact">
-        <h2 style="background-color:rgb(161, 27, 161);"> Contact Me</h2>
+        <h2> Contact Me</h2>
         <hr>
         
         <form>

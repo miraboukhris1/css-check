@@ -1,0 +1,181 @@
+
+body {
+    font-family: Arial;
+    background-color: rgb(212, 194, 229);
+    font-family: 'Roboto',sans-serif;
+}
+h1, h2 {
+    text-align: center;
+}
+
+.liste {
+    background-color: #a45281;
+    padding: 10px 10%; 
+    display: flex;
+    
+}
+
+.liste h1 {
+    color: white;
+    margin-right: 600px;
+    
+}
+
+.liste ul {
+    list-style: none;
+    display: flex;
+}
+
+.liste li {
+    margin: 5px;
+    
+}
+
+.liste  a {
+    color: rgb(215, 210, 213);
+    text-decoration: none;
+    padding: 8px 16px;
+    
+}
+
+.liste  a:hover {
+    background-color: rgb(232, 183, 224);
+    font-style: italic;
+    color: rgb(64, 7, 33);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0.5%;
+}
+
+
+header {
+    text-align: center;
+    padding: 3px;
+    background-color: #ffffff;
+    border-bottom: 0px solid ;
+    border-top: 20px solid rgb(212, 194, 229);
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+header img {
+   border-radius: 50%;
+   margin-left: 160px;
+   
+}
+header h1{ 
+    color: rgb(178, 60, 144);
+    margin-left: 20px;
+}
+div{
+    display:flex;
+    justify-content: center;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+
+section h2 {
+    color: #d68cb1;
+    margin-bottom: 20px;
+    border:  1px solid pink;
+    border-radius: 20px;
+    border-color: #6e2d4e;
+    background-color: #933074;
+    
+
+    
+    
+}
+
+section hr {
+    
+    height:1px;
+    background: #5c224a;
+    margin-bottom: 20px;
+}
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #e6d9e2;
+}
+
+
+
+#about td {
+    padding: 8px;
+    text-align: left;
+    
+}
+
+section th {
+    background-color: #f0e6e6;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+#work h3{
+    color: #d68cb1;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 5px 0;
+    color: rgb(185, 16, 148);
+}
+
+form input,textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f2ecec;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: rgb(64, 16, 185);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+form button:hover {
+    background-color: rgb(46, 11, 133);
+}
+
+
+
